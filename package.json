@@ -4,8 +4,9 @@
   "description": "xhh脚手架",
   "main": "index.js",
   "dependencies": {
-    "react-dom": "^17.0.2",
-    "react": "^17.0.2"
+    "commander": "^10.0.0",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2"
   },
   "devDependencies": {},
   "scripts": {
@@ -23,5 +24,8 @@
   "bugs": {
     "url": "https://github.com/1196778674/xhh-handle/issues"
   },
-  "homepage": "https://github.com/1196778674/xhh-handle#readme"
+  "homepage": "https://github.com/1196778674/xhh-handle#readme",
+  "bin": {
+    "xhh": "./bin/xhh.js"
+  }
 }
